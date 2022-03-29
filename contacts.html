@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="css/tailwind.min.css">
+
+</head>
+<body>
+    <h1 class="mb-8 font-black text-4xl pl-5">My Contacts</h1>
+    <form action="contactForm.html" id="form">
+        <input type="submit" class="mb-4 bg-green-400 hover:bg-green-500 text-white font-bold ml-5 p-2 cursor-pointer rounded" value="Add New Record">
+
+        <table class="min-w-full">
+            <thead class="bg-gray-100 ">
+                <tr>
+                    <th class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                            Nombre
+                    </th>
+                    <th class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                            Apellido
+                    </th>
+                    <th class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                            Telefono
+                    </th>
+                    <th class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                            Correo
+                    </th>
+                    <th class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                            Acciones
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="listado-clientes" class="bg-white"></tbody>
+        </table>
+    </form>
+
+    <script src="js/contacts.js"></script>
+</body>
+</html>
