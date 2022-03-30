@@ -25,7 +25,7 @@ function formSubmit(e){
             showAlert('Datos correctos');
 
             setTimeout(() => {
-                window.location.href = 'contacts.html';
+                window.location.href = 'src/contacts.html';
             }, 2000);
         }, 1000);
     }
