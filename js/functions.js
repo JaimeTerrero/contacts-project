@@ -4,7 +4,7 @@ export function showAlert(message, tipo){
     if(!existingAlert){
         // Creating alert
         const divMessage = document.createElement('div');
-        divMessage.classList.add('px-4', 'py-3', 'mt-8','rounded', 'max-w-lg', 'mx-auto', 'mt-6', 'text-center', 'border', 'alert');
+        divMessage.classList.add('px-4', 'py-3', 'mt-8','rounded', 'max-w-lg', 'mx-auto',  'text-center', 'border', 'alert');
 
         if(tipo === 'error'){
             divMessage.classList.add('bg-red-100', 'border-red-400', 'text-red-700');
