@@ -9,24 +9,23 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body class="bg-gray-600">
-    <h1 class="text-white font-black text-6xl text-center mt-6 ">Email</h1>
-    <div class="w-full max-w-xs m-auto mt-4">
-        <form id="form" action="" class="bg-white px-8 pt-6 pb-8 mb-4 rounded -m-2">
+    <h1 class="text-white font-black text-5xl text-center mt-3 ">Email</h1>
+    <div class="w-full max-w-xs m-auto mt-3">
+        <form id="form" action="" class="bg-white px-8 pt-6 pb-8 mb-4 rounded -m-2 shadow-md">
             <div class="mb-8">
                 <label for="name" class="block text-gray-700 font-bold">Name</label>
-                <input type="text" id="name" name="name" placeholder="ex: Don Quijote" class="border border-gray-400  p-2 rounded-lg w-full mt-2">
+                <input type="text" id="name" name="name" placeholder="ex: Don Quijote" class="border border-gray-500 p-2 rounded-lg w-full mt-2">
             </div>
             <div class="mb-8">
                 <label for="email" class="block text-gray-700 font-bold">Email</label>
-                <input type="email" id="email" name="email" placeholder="ex: mail@mail.com" class="border border-gray-400 p-2 rounded-lg w-full mt-2">
+                <input type="email" id="email" name="email" placeholder="ex: mail@mail.com" class="border border-gray-500 p-2 rounded-lg w-full mt-2">
             </div>
             <div class="mb-8">
                 <label for="message" class="text-gray-700 font-bold">Message</label>
-                <textarea name="message" id="message" cols="30" rows="5" class="border border-gray-400 mt-2 w-full"></textarea>
+                <textarea placeholder="Your Message" name="message" id="message" rows="4" class="border border-gray-500 mt-2 p-2 w-full rounded-lg"></textarea>
             </div>
-            <div class="mb-8">
-                <input type="submit" id="button" value="Send Message" class="cursor-pointer bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 border-none rounded w-full">
-            </div>
+            
+            <input type="submit" id="button" value="Send Message" class="cursor-pointer bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 border-none rounded w-full uppercase">
 
             <div class="result" id="result"></div>
         </form>

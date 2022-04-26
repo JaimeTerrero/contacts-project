@@ -99,9 +99,9 @@
                                 <p class="text-gray-700 font-bold">${email}</p>
                             </td>
                             <td class="p-4 leading-5 ">
-                                <a href="editContactForm.html?id=${id}" class="p-2 text-white font-bold bg-green-500 hover:bg-green-600 border-none rounded mr-5">Editar</a>
-                                <a href="email.html?id=${id}" class="p-2 text-white font-bold bg-blue-600 hover:bg-blue-700 border-none rounded mr-5">Enviar Correo</a>
-                                <a href="#" data-cliente="${id}" class="p-2 text-white font-bold bg-red-600 hover:bg-red-700 border-none rounded mr-5 eliminar">Eliminar</a>
+                                <a href="editContactForm.html?id=${id}" class="p-2 text-white font-bold bg-green-500 hover:bg-green-600 border-none rounded uppercase mr-5">Editar</a>
+                                <a href="email.html?id=${id}" class="p-2 text-white font-bold bg-blue-600 hover:bg-blue-700 border-none rounded uppercase mr-5">Enviar Correo</a>
+                                <a href="#" data-cliente="${id}" class="p-2 text-white font-bold bg-red-600 hover:bg-red-700 border-none rounded uppercase mr-5 eliminar">Eliminar</a>
                             </td>
                         </tr>
                         `;
